@@ -1,0 +1,29 @@
+.query-button {
+  cursor: pointer;
+  margin: 20px auto;
+  font-size: 20px;
+  width: max(30vw, 120px);
+  max-width: 180px;
+  transition: 0.5s;
+  border: none;
+  background-color: tomato;
+  width: max(15vw , 200px);
+  padding: 30px;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+ text-align: center;
+}
+.query-button:hover {
+ 
+  transform: scale(1.05);
+}
+.query-all-restaurants{
+  text-align: center;
+  margin-top: 20px;
+}
+.query-all-restaurants hr {
+  margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #eee;
+}

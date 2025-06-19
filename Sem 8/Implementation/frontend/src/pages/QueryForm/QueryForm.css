@@ -1,0 +1,78 @@
+/* QueryForm.css */
+
+.query-form {
+  width: 100%;
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+}
+
+.query-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.query-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.query-form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.query-form select,
+.query-form input,
+.query-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.query-form select {
+  appearance: none;
+  background: #fff;
+  cursor: pointer;
+}
+
+.query-form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.query-form button {
+  background: tomato;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.query-form button:hover {
+  background: tomato;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  .query-form {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .query-form button {
+    font-size: 16px;
+  }
+}
